@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Somesh Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Somesh Reddy</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#Skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Somesh Reddy</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#Skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img class="circle-image" src="./assets/profile-pic.png" alt="Somesh Reddy profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Someshwar Reddy</h1>
+        <p class="section__text__p2">Full Stack Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Somesh Reddy.pdf')" >  Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'"> Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/somesh-j-76628b170/'"/>
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/somesh625'"/>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>5+ years <br />Full Stack Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <ul>
+                <li>Master's Degree in Information technology from Clark University. <b>May 2024 Grad. </b></li>
+                <li>Bachelor's Degree in Electronics and Communication Engineering from Gitam University. <b>July 2021 Grad. </b></li>
+            </ul>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Highly skilled and experienced .NET Full Stack Developer with 5+ years of expertise in designing, 
+              developing, and deploying robust and scalable web and software solutions. 
+              Proficient in .NET Core, ASP.NET, C#, SQL Server, and modern front-end frameworks 
+              like Angular, React, and Vue.js
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <section id="Skills">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Skills</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Programming Languages</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Java icon" class="icon">
+                            <div>
+                                <h3>Java</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="C# icon" class="icon">
+                            <div>
+                                <h3>C#</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="C++ icon" class="icon">
+                            <div>
+                                <h3>C++</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Java icon" class="icon">
+                            <div>
+                                <h3>Python</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Java icon" class="icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Java icon" class="icon">
+                            <div>
+                                <h3>TypeScript</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Java icon" class="icon">
+                            <div>
+                                <h3>SQL</h3>
+                            </div>
+                        </article>
+                    </div>
+                    
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Web Technologies</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>HTML5</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>CSS3</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>ReactJS</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Spring Framework</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Spring Boot</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>REST API's</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Microservices</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Hibernate</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Kafka</h3>
+                            </div>
+                        </article>
+                        
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Tools <br> and <br> Cloud Technologies</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>GitHub</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Jenkins</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Docker</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Bitbucket</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Microsoft Azure</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>AWS</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>GCP</h3>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Databases</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>MySQL</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>MongoDB</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Microsoft SQL Server</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Oracle</h3>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--<img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'">-->
+    </section>
+          
+
+    <section id="experience">
+        <p class="section__text__p1">Work Experience</p>
+        <h1 class="title">Experience</h1>
+        
+        <div class="experience-item">
+            <img src="./assets/wissen-logo.jpeg" alt="Wissen IT Logo" class="company-logo">
+            <div class="experience-details">
+                <h2>Wissen IT</h2>
+                <p>Software Engineer | Rock Hill, SC, USA | February 2024 - Present</p>
+                <ul>
+                    <li>Developed high-performance transaction system using Java, Spring Boot, MySQL, and Kafka.</li>
+                    <li>Led security enhancements with Spring Security and OAuth 2.0.</li>
+                    <li>Designed mobile banking app with React Native, TypeScript, and Firebase.</li>
+                </ul>
+            </div>
+        </div>
+    
+        <div class="experience-item">
+            <img src="./assets/hexagon-logo.jpeg" alt="Hexagon Logo" class="company-logo">
+            <div class="experience-details">
+                <h2>Hexagon R&D India</h2>
+                <p>Software Developer | Hyderabad, India | August 2021 - July 2022</p>
+                <ul>
+                    <li>Designed RESTful APIs with Java and Spring Boot to optimize transaction processing.</li>
+                    <li>Collaborated on CI/CD pipelines using GitHub and Azure.</li>
+                    <li>Engineered a data management system with Spring Data JPA and improved system performance.</li>
+                </ul>
+            </div>
+        </div>
+    
+        <div class="experience-item">
+            <img src="./assets/heresy-logo.jpeg" alt="Heresy Infotech Logo" class="company-logo">
+            <div class="experience-details">
+                <h2>Heresy Infotech</h2>
+                <p>Software Engineer | Hyderabad, India | August 2018 - July 2021</p>
+                <ul>
+                    <li>Developed responsive web pages for appointment scheduling using HTML, CSS, and Bootstrap.</li>
+                    <li>Engineered medication management features with JavaScript, React, and TypeScript.</li>
+                    <li>Optimized CI/CD pipelines for telemedicine and led development of a patient feedback feature.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+   
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:someshj2202@gmail.com">someshj2202@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/somesh-j-76628b170/">LinkedIn</a></p>
+          <p>
+            <img src="./assets/call-icon.webp" alt="Contact icon" class="icon contact-icon"> 
+            <a>+1 (857) 210-1855</a>
+        </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Somesh Reddy. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
